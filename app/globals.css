@@ -28,7 +28,7 @@ a:hover { color: #666; }
 a:focus-visible { outline: 2px solid #333; outline-offset: 4px; }
 p, h1, h2, h3 { margin: 0; }
 
-.page { width: min(40rem, calc(100% - 6rem)); margin: 3rem 0 4rem 3rem; }
+.page { width: min(40rem, calc(100% - 6rem)); margin: 3rem auto 4rem; }
 .header { display: flex; align-items: baseline; gap: 2rem; }
 .header h1 { font-size: 1.875rem; line-height: 1.2; font-weight: 500; }
 .header nav { display: flex; gap: 1.25rem; margin-left: auto; font-size: .875rem; }

@@ -1,6 +1,6 @@
 # The AI timeline
 
-A minimal, sourced public timeline explaining AI through breakthroughs, cultural moments and public reactions. Four brief precursors lead into 2015–9 September 2026.
+A minimal, sourced public timeline explaining AI through breakthroughs, cultural moments and public reactions. Five brief precursors lead into 2015–9 September 2026.
 
 ## Content
 
@@ -12,7 +12,7 @@ Selection favors changes a nontechnical reader can understand: surprising abilit
 
 ## Design
 
-The current presentation follows [Physical Intelligence](https://www.pi.website/): a narrow, left-aligned document, compact header, straightforward text links and restrained sizing. All text uses Helvetica/Arial on white, including dates. There are no colored labels, decorative rules, oversized headings, progress indicators or scroll effects. Source photographs remain alongside the relevant events.
+The current presentation follows [Physical Intelligence](https://www.pi.website/): a narrow document centered on the page, with left-aligned text, a compact header, straightforward text links and restrained sizing. All text uses Helvetica/Arial on white, including dates. There are no colored labels, decorative rules, oversized headings, progress indicators or scroll effects. Source photographs remain alongside the relevant events.
 
 The original version drew on Mobbin and Osmo references; the current design supersedes that styling at the user's request. All event data, original links and stable anchors remain intact.
 

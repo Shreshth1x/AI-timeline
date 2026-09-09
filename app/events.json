@@ -80,6 +80,32 @@
     "featured": false
   },
   {
+    "id": "musk-summoning-demon",
+    "date": "2014-10-24",
+    "dateLabel": "24 Oct",
+    "year": 2014,
+    "title": "Musk calls AI “summoning the demon”",
+    "summary": "At MIT, Elon Musk compares developing AI to “summoning the demon” and calls for oversight. Years before ChatGPT, a prominent technology entrepreneur is already warning that people might build something they cannot control.",
+    "why": "The fear of losing control becomes part of the public AI story long before chatbots go mainstream.",
+    "category": "stakes",
+    "status": "prediction",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Musk’s MIT conversation",
+        "url": "https://www.youtube.com/watch?v=PULkWGHeIQQ"
+      },
+      {
+        "label": "Conversation transcript",
+        "url": "https://elonmuskarchive.org/video/mit-aeroastro-centennial-symposium-2014-10-24"
+      },
+      {
+        "label": "MIT’s contemporary event report",
+        "url": "https://news.mit.edu/2014/aeroastro-centennial-symposium-1025"
+      }
+    ]
+  },
+  {
     "id": "deepdream",
     "date": "2015-06-18",
     "dateLabel": "18 Jun",
@@ -202,6 +228,24 @@
       }
     ],
     "featured": true
+  },
+  {
+    "id": "software-2",
+    "date": "2017-11-11",
+    "dateLabel": "11 Nov",
+    "year": 2017,
+    "title": "Karpathy describes “Software 2.0”",
+    "summary": "AI researcher Andrej Karpathy calls neural networks a new kind of software: instead of writing every rule, people provide examples and train a system to learn the rules. His essay shifts attention from clever algorithms to the data that shapes a model.",
+    "why": "A clear explanation of how training a model changes the way software is made.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Karpathy's original essay",
+        "url": "https://karpathy.medium.com/software-2-0-a64152b37c35"
+      }
+    ]
   },
   {
     "id": "alphazero",
@@ -598,6 +642,24 @@
       }
     ],
     "featured": true
+  },
+  {
+    "id": "english-programming-language",
+    "date": "2023-01-24",
+    "dateLabel": "24 Jan",
+    "year": 2023,
+    "title": "The hottest new programming language is English",
+    "summary": "Karpathy posts a nine-word observation: the hottest new programming language is English. After ChatGPT, the line captures a striking possibility: people can tell a computer what they want in ordinary language, bringing some kinds of programming within reach of people who never learned code.",
+    "why": "An early shorthand for the shift from writing code to describing what software should do.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Karpathy's original post",
+        "url": "https://x.com/karpathy/status/1617979122625712128"
+      }
+    ]
   },
   {
     "id": "bing-sydney",
@@ -1180,6 +1242,24 @@
     "featured": true
   },
   {
+    "id": "altman-singularity-post",
+    "date": "2025-01-04",
+    "dateLabel": "4 Jan",
+    "year": 2025,
+    "title": "“Near the singularity; unclear which side”",
+    "summary": "Sam Altman posts a tiny story about being near the singularity: a hypothetical turning point when AI progress transforms the world beyond easy prediction. Its ambiguity captures the mood around AI: even people building it sound unsure how to describe the moment.",
+    "why": "A cryptic post turns an abstract idea about the future into a slogan for the present.",
+    "category": "culture",
+    "status": "prediction",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Altman's original post",
+        "url": "https://x.com/sama/status/1875603249472139576"
+      }
+    ]
+  },
+  {
     "id": "deepseek-r1",
     "date": "2025-01-20",
     "dateLabel": "20 Jan",
@@ -1194,6 +1274,24 @@
       {
         "label": "Model, paper and license",
         "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    ]
+  },
+  {
+    "id": "stargate-announced",
+    "date": "2025-01-21",
+    "dateLabel": "21 Jan",
+    "year": 2025,
+    "title": "A $500 billion bet on AI infrastructure",
+    "summary": "OpenAI announces Stargate with initial funders SoftBank, Oracle, and MGX. The company says it intends to invest $500 billion in US AI infrastructure over four years, starting with $100 billion. These are announced investment plans, not money already spent.",
+    "why": "The AI race becomes a vast physical buildout of data centers, chips, land, and power.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "OpenAI and SoftBank's Stargate announcement",
+        "url": "https://openai.com/index/announcing-the-stargate-project/"
       }
     ]
   },
@@ -1380,6 +1478,24 @@
       {
         "label": "Amodei's original interview",
         "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic"
+      }
+    ]
+  },
+  {
+    "id": "gentle-singularity",
+    "date": "2025-06-10",
+    "dateLabel": "10 Jun",
+    "year": 2025,
+    "title": "Altman says the takeoff has started",
+    "summary": "In The Gentle Singularity, Sam Altman argues that AI beyond human ability is approaching, but its effects may arrive gradually enough to feel ordinary. He predicts faster scientific discovery, greater abundance, and major job changes as AI becomes part of daily life.",
+    "why": "The optimism becomes explicit: extraordinary change could arrive through a succession of ordinary days.",
+    "category": "stakes",
+    "status": "prediction",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Altman's original essay",
+        "url": "https://blog.samaltman.com/the-gentle-singularity"
       }
     ]
   },
@@ -1602,6 +1718,28 @@
       {
         "label": "Follow-up: the operator comes forward",
         "url": "https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/"
+      }
+    ]
+  },
+  {
+    "id": "karpathy-agentic-programming",
+    "date": "2026-02-25",
+    "dateLabel": "25 Feb",
+    "year": 2026,
+    "title": "Karpathy says programming is becoming unrecognizable",
+    "summary": "Karpathy says coding agents have transformed his work since December. He describes an agent building and testing a home-camera dashboard in about 30 minutes, with no manual intervention. His conclusion: developers increasingly direct and review agents, though judgment and oversight still matter.",
+    "why": "The person who named vibe coding describes another shift: supervising software that can carry out whole tasks.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Karpathy's original post",
+        "url": "https://x.com/karpathy/status/2026731645169185220"
+      },
+      {
+        "label": "Contemporaneous quotation",
+        "url": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/"
       }
     ]
   },
