@@ -22,6 +22,6 @@ Run `npm install` if dependencies are absent, then `npm run dev`. Use `npm run b
 
 ## Vercel deployment
 
-The production site is [aitimeline.vercel.app](https://aitimeline.vercel.app), in the `harshithmbusiness-projects` Vercel team. Source lives in [Shreshth1x/AI-timeline](https://github.com/Shreshth1x/AI-timeline).
+The production site is [aicompletetimeline.vercel.app](https://aicompletetimeline.vercel.app), in the `harshithmbusiness-projects` Vercel team. Source lives in [Shreshth1x/AI-timeline](https://github.com/Shreshth1x/AI-timeline).
 
 Vercel runs `npm run build:vercel` and serves the static `dist/client` export. This build pre-renders all timeline entries and excludes the Cloudflare-specific plugins; it needs no runtime secrets or account sign-in. The normal `npm run build` remains available for the original Sites deployment.
