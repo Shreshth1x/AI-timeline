@@ -10,13 +10,11 @@ Selection favors changes a nontechnical reader can understand: surprising abilit
 
 [Accelerando](https://github.com/prinz-ai/accelerando) provided leads for the recent research-automation story. Original sources were checked separately. Repeated benchmark updates, revenue milestones and speculative extrapolations were generally omitted; scientific results, coding agents, real safety incidents and insider warnings were retained with context. Neither the source project's singularity framing nor its claims about inevitability are adopted as facts.
 
-## Design references
+## Design
 
-- [Matter's archive on Mobbin](https://mobbin.com/screens/344f302f-87b5-47f5-bb73-3db1dda84227): compact metadata, unobtrusive separators and generous white space.
-- [Substack's reading history on Mobbin](https://mobbin.com/screens/b9d8ba56-a6af-49a0-bb86-9f267ee5674c): readable text-first entries with supporting sources.
-- [Osmo Sticky Steps](https://www.osmo.supply/resource/sticky-steps-basic) and [Sticky Section Tabs](https://www.osmo.supply/resource/sticky-section-tabs-css): adapted active-section tracking and sticky year context, with native scrolling, requestAnimationFrame scheduling and reduced-motion support.
+The current presentation follows [Physical Intelligence](https://www.pi.website/): a narrow, left-aligned document, compact header, straightforward text links and restrained sizing. All text uses Helvetica/Arial on white, including dates. There are no colored labels, decorative rules, oversized headings, progress indicators or scroll effects. Source photographs remain alongside the relevant events.
 
-All type uses system Arial/Helvetica. Images are factual source illustrations, linked and credited in place: Google's DeepDream comparison (CC BY 4.0) and Paul Conyngham with Rosie (Gamgee).
+The original version drew on Mobbin and Osmo references; the current design supersedes that styling at the user's request. All event data, original links and stable anchors remain intact.
 
 ## Local use
 
