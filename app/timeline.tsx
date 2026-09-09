@@ -89,7 +89,6 @@ export default function Timeline({ events }: { events: Event[] }) {
             <h2 id="about-heading">About this timeline</h2>
             <p>A curated history for people who don’t follow AI every day. Entries are selected for their significance to technology, culture, or public opinion.</p>
             <p>Each entry links to its sources. Dates refer to the event or public post; where only a month is established, only a month is shown. Predictions and reported accounts are labeled. Individual posts illustrate public debate; they are not opinion polls.</p>
-            <p><a href="https://github.com/prinz-ai/accelerando" target="_blank" rel="noreferrer">Accelerando</a> was a starting point for the recent chronology. Its linked sources were assessed individually.</p>
             <p>Last checked September 9, 2026.</p>
             <a href="#top">Back to top</a>
           </section>
