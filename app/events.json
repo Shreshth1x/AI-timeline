@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "turing-test",
+    "date": "1950-10",
+    "dateLabel": "Oct 1950",
+    "year": 1950,
+    "title": "Could a machine pass for a person?",
+    "summary": "Alan Turing asks whether a machine could convince someone it is human through a written conversation.",
+    "why": "The argument about fluent machines begins long before chatbots.",
+    "category": "stakes",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "Turing's original paper",
+        "url": "https://doi.org/10.1093/mind/LIX.236.433"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "eliza",
+    "date": "1966-01",
+    "dateLabel": "Jan 1966",
+    "year": 1966,
+    "title": "A chatbot that seems to listen",
+    "summary": "ELIZA imitates a therapist using simple rules. People find meaning in its replies anyway.",
+    "why": "A convincing conversation can make a simple program feel human.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Weizenbaum's original ELIZA paper",
+        "url": "https://courses.cs.umbc.edu/331/papers/eliza.html"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "deep-blue",
+    "date": "1997-05-11",
+    "dateLabel": "11 May 1997",
+    "year": 1997,
+    "title": "The world chess champion loses",
+    "summary": "IBM’s Deep Blue defeats world chess champion Garry Kasparov. A machine built for one game wins.",
+    "why": "Beating a human champion does not automatically make an all-purpose intelligence.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "IBM's history of Deep Blue",
+        "url": "https://www.ibm.com/history/deep-blue"
+      },
+      {
+        "label": "IBM's 1997 annual report",
+        "url": "https://www.ibm.com/investor/att/pdf/IBM_Annual_Report_1997.pdf"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "alexnet",
+    "date": "2012-10-13",
+    "dateLabel": "13 Oct 2012",
+    "year": 2012,
+    "title": "Learning to see beats hand-written rules",
+    "summary": "A neural network wins a major image-recognition contest. More data and powerful graphics chips make learning from examples work.",
+    "why": "More data, more computing power, and neural networks become a winning combination.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "ImageNet's dated results announcement",
+        "url": "https://www.image-net.org/challenges/LSVRC/2012/"
+      },
+      {
+        "label": "The AlexNet paper",
+        "url": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "deepdream",
+    "date": "2015-06-18",
+    "dateLabel": "18 Jun",
+    "year": 2015,
+    "title": "The internet sees a machine's dreams",
+    "summary": "Google turns an image-recognition network back on its own pictures. Clouds sprout animals; buildings dissolve into strange, repeating shapes. These DeepDream images make neural networks visible and weirdly memorable. A system trained to recognize things can also produce images that look like an alien imagination.",
+    "why": "AI starts to look like a creative medium.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Google's original Inceptionism post",
+        "url": "https://research.google/blog/inceptionism-going-deeper-into-neural-networks/"
+      }
+    ],
+    "featured": true,
+    "image": {
+      "src": "/images/deepdream.png",
+      "alt": "An ordinary sky and cloud photograph transforms into animal-like shapes through Google’s DeepDream neural network.",
+      "credit": "Google / DeepDream, 2015 · CC BY 4.0",
+      "url": "https://research.google/blog/inceptionism-going-deeper-into-neural-networks/",
+      "width": 640,
+      "height": 172
+    }
+  },
+  {
+    "id": "openai-founded",
+    "date": "2015-12-11",
+    "dateLabel": "11 Dec",
+    "year": 2015,
+    "title": "OpenAI begins with a promise",
+    "summary": "OpenAI introduces itself as a nonprofit research company, promising to develop digital intelligence for humanity's benefit without pressure to deliver financial returns. Its opening post emphasizes broadly shared benefits and collaboration. The question of who controls powerful AI is present at the start.",
+    "why": "The mission becomes a reference point for later arguments about the company.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Introducing OpenAI",
+        "url": "https://openai.com/index/introducing-openai/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "alphago-move37",
+    "date": "2016-03-10",
+    "dateLabel": "10 Mar",
+    "year": 2016,
+    "title": "Move 37",
+    "summary": "Playing Go champion Lee Sedol, DeepMind's AlphaGo places a stone where expert humans would almost never put it. Move 37 helps it win the second game; the match ends 4–1. The startling part is not just victory, but a useful idea people had overlooked.",
+    "why": "AI can surprise experts with unfamiliar, effective strategies.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "DeepMind's AlphaGo account",
+        "url": "https://deepmind.google/research/alphago/"
+      },
+      {
+        "label": "DeepMind on the anniversary of Move 37",
+        "url": "https://deepmind.google/blog/10-years-of-alphago/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "tay",
+    "date": "2016-03-23",
+    "dateLabel": "23 Mar",
+    "year": 2016,
+    "title": "The internet corrupts a chatbot",
+    "summary": "Microsoft puts Tay on Twitter as a conversational experiment. People exploit the bot, which posts offensive and hateful messages before Microsoft takes it offline. The company's apology describes a coordinated attack. Public interaction exposes a failure that an entertaining demo did not anticipate.",
+    "why": "What an AI does depends partly on the people interacting with it.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Microsoft's apology and account of Tay",
+        "url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "libratus",
+    "date": "2017-01-30",
+    "dateLabel": "30 Jan",
+    "year": 2017,
+    "title": "An AI wins a game of hidden cards",
+    "summary": "Carnegie Mellon's Libratus defeats four leading poker professionals over 120,000 hands of heads-up no-limit Texas Hold'em. Poker adds something chess and Go lack: hidden information and bluffing. The computer finishes with a lead of about $1.8 million in chips, not actual player losses.",
+    "why": "Machines can make strong decisions without seeing the whole situation.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Carnegie Mellon's match report",
+        "url": "https://www.cmu.edu/news/stories/archives/2017/january/AI-beats-poker-pros.html"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "transformer",
+    "date": "2017-06-12",
+    "dateLabel": "12 Jun",
+    "year": 2017,
+    "title": "Eight researchers publish the blueprint",
+    "summary": "The paper Attention Is All You Need introduces the Transformer, a way for a neural network to weigh relationships between words. It improves translation while making training easier to parallelize across computers. This architecture becomes a central building block of the GPT family.",
+    "why": "A relatively quiet research paper helps make the later chatbot boom possible.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "label": "OpenAI describes GPT-2's Transformer architecture",
+        "url": "https://openai.com/index/better-language-models/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "alphazero",
+    "date": "2017-12-05",
+    "dateLabel": "5 Dec",
+    "year": 2017,
+    "title": "It teaches itself to beat the champions",
+    "summary": "DeepMind's AlphaZero starts with game rules and learns through playing itself. Within 24 hours, separate training runs achieve superhuman performance in chess, shogi and Go. It does not need a library of expert human games to discover powerful ways to play.",
+    "why": "Learning from its own experience can go beyond copying people.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "The original AlphaZero paper",
+        "url": "https://arxiv.org/abs/1712.01815"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "deepfakes",
+    "date": "2017-12-11",
+    "dateLabel": "11 Dec",
+    "year": 2017,
+    "title": "Fake faces become a real threat",
+    "summary": "A Reddit user starts creating nonconsensual celebrity face-swaps, reported by journalist Samantha Cole. The technique puts someone’s likeness into footage they never appeared in. Deepfakes introduce a disturbing consequence of increasingly convincing AI imagery: a person can be made to appear to do things they never did.",
+    "why": "Synthetic media raises problems of consent and trust.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Samantha Cole's original reporting",
+        "url": "https://www.vice.com/en/article/gal-gadot-fake-ai-porn/"
+      },
+      {
+        "label": "Research on deepfakes and face recognition",
+        "url": "https://arxiv.org/abs/1812.08685"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "google-duplex",
+    "date": "2018-05-08",
+    "dateLabel": "8 May",
+    "year": 2018,
+    "title": "A computer phones the hair salon",
+    "summary": "Google demonstrates Duplex making calls to book appointments, complete with pauses and conversational filler. The voice sounds strikingly ordinary. The system is designed for narrow tasks rather than any possible conversation, but the demo makes speaking with a machine feel less easy to recognize.",
+    "why": "AI begins to sound like someone you might meet on the phone.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Google's original Duplex demonstration",
+        "url": "https://research.google/blog/google-duplex-an-ai-system-for-accomplishing-real-world-tasks-over-the-phone/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "belamy-auction",
+    "date": "2018-10-25",
+    "dateLabel": "25 Oct",
+    "year": 2018,
+    "title": "An AI portrait sells for $432,500",
+    "summary": "Portrait of Edmond Belamy, made by the French art collective Obvious using a generative neural network, sells at Christie's for $432,500. Its blurry face and mathematical signature become a striking image of AI entering the art market. Human artists still selected, produced and presented the work.",
+    "why": "Machine-made imagery becomes something people argue about and pay to own.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Christie's account of the sale",
+        "url": "https://www.christies.com/about-us/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-7.aspx"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "this-person-does-not-exist",
+    "date": "2019-02",
+    "dateLabel": "Feb",
+    "year": 2019,
+    "title": "None of these people exist",
+    "summary": "Phillip Wang's website shows a realistic human face every time you refresh. None belongs to a real person: Nvidia's StyleGAN generates them. The simple page turns a technical breakthrough into an instant public demonstration. A convincing portrait no longer proves that its subject exists.",
+    "why": "The distance from strange machine dreams to plausible photographs suddenly feels short.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Interview with creator Phillip Wang",
+        "url": "https://www.inverse.com/article/53414-this-person-does-not-exist-creator-interview"
+      },
+      {
+        "label": "Nvidia's StyleGAN paper",
+        "url": "https://arxiv.org/abs/1812.04948"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "gpt2-withheld",
+    "date": "2019-02-14",
+    "dateLabel": "14 Feb",
+    "year": 2019,
+    "title": "Good enough to worry its creators",
+    "summary": "OpenAI shows GPT-2 continuing prompts into coherent passages and initially withholds its largest model, citing risks such as impersonation and deceptive content. It releases a smaller version instead. The same text-writing ability can power a helpful assistant or an industrial supply of plausible nonsense.",
+    "why": "Capability and release restraint become part of the same announcement.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "OpenAI's GPT-2 announcement",
+        "url": "https://openai.com/index/better-language-models/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "openai-five",
+    "date": "2019-04-13",
+    "dateLabel": "13 Apr",
+    "year": 2019,
+    "title": "World champions lose to a team of bots",
+    "summary": "OpenAI Five beats reigning Dota 2 world champions OG in two live games. Five AI players coordinate in a fast, complicated team contest with a restricted pool of 17 playable characters. The system can also play alongside people, hinting at cooperation as well as competition.",
+    "why": "AI moves from taking turns on a board to coordinating in real time.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "OpenAI's match report",
+        "url": "https://openai.com/index/openai-five-defeats-dota-2-world-champions/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "ai-dungeon",
+    "date": "2019-12",
+    "dateLabel": "Dec",
+    "year": 2019,
+    "title": "A game that invents itself as you play",
+    "summary": "Nick Walton's AI Dungeon 2 uses GPT-2 to improvise a text adventure in response to whatever the player types. The story can be surprising, absurd or inconsistent. Instead of choosing only from an author's fixed branches, players can help generate what happens next.",
+    "why": "A language model becomes a playful collaborator people can actually use.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "AI Dungeon's original source repository",
+        "url": "https://github.com/latitudegames/AIDungeon"
+      },
+      {
+        "label": "The creator's December 2019 community post",
+        "url": "https://www.reddit.com/r/AIDungeon/comments/e9vbhs/hey_guys_creator_here_need_your_input_on_a/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "gpt3",
+    "date": "2020-05-28",
+    "dateLabel": "28 May",
+    "year": 2020,
+    "title": "One model, many different jobs",
+    "summary": "GPT-3 shows that a much larger language model can tackle translation, questions, writing and other tasks from instructions or a few examples in its prompt. It still fails in important ways. But people no longer need to train a separate model for every narrow language task.",
+    "why": "Asking in ordinary language starts to become a useful interface to software.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "The GPT-3 paper",
+        "url": "https://arxiv.org/abs/2005.14165"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "alphafold2",
+    "date": "2020-11-30",
+    "dateLabel": "30 Nov",
+    "year": 2020,
+    "title": "AI helps reveal the shapes of life",
+    "summary": "AlphaFold 2 predicts the three-dimensional shapes of proteins with extraordinary accuracy in a blind scientific assessment. These shapes help explain how life's molecular machinery works. It is a major advance in structure prediction, rather than a solution to every problem in biology or drug discovery.",
+    "why": "The promise shifts from winning games to accelerating real science.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "DeepMind's AlphaFold breakthrough announcement",
+        "url": "https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "dalle-clip",
+    "date": "2021-01-05",
+    "dateLabel": "5 Jan",
+    "year": 2021,
+    "title": "Describe an avocado chair. Get an avocado chair.",
+    "summary": "OpenAI shows DALL-E generating pictures from text, including chairs shaped like avocados. Released alongside it, CLIP connects pictures with written descriptions. The demos suggest that language can become a way to direct visual creation, combining familiar ideas into images that were never photographed.",
+    "why": "You can start specifying a picture with words instead of making every mark.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "DALL-E's original announcement",
+        "url": "https://openai.com/index/dall-e/"
+      },
+      {
+        "label": "CLIP's original announcement",
+        "url": "https://openai.com/index/clip/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "stochastic-parrots",
+    "date": "2021-03-10",
+    "dateLabel": "10 Mar",
+    "year": 2021,
+    "title": "Fluent words, disputed understanding",
+    "summary": "Emily Bender, Timnit Gebru and coauthors present Stochastic Parrots, arguing that ever-larger language models can amplify bias, consume substantial resources and mislead people through convincing language. The paper offers a counterpoint to scale-driven optimism: sounding coherent is not the same as understanding what is said.",
+    "why": "The debate includes harms happening now, alongside predictions about future intelligence.",
+    "category": "stakes",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "University of Washington's author interviews",
+        "url": "https://www.washington.edu/news/2021/03/10/large-computer-language-models-carry-environmental-social-risks/"
+      },
+      {
+        "label": "The lead author's paper and context",
+        "url": "https://faculty.washington.edu/ebender/stochasticparrots/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "lamda",
+    "date": "2021-05-18",
+    "dateLabel": "18 May",
+    "year": 2021,
+    "title": "A conversation can wander",
+    "summary": "Google introduces LaMDA, designed for open-ended dialogue that can move between subjects instead of sticking to a narrow script. Its public examples explore topics such as Pluto and paper airplanes. Google also acknowledges that plausible, engaging replies can still be wrong or unsafe.",
+    "why": "The chatbot begins to resemble an ongoing conversation rather than a command box.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Google's LaMDA introduction",
+        "url": "https://blog.google/innovation-and-ai/products/lamda/"
+      },
+      {
+        "label": "Sundar Pichai's I/O demonstration account",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/io21-helpful-google/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "github-copilot",
+    "date": "2021-06-29",
+    "dateLabel": "29 Jun",
+    "year": 2021,
+    "title": "Autocomplete becomes a coding partner",
+    "summary": "GitHub launches a preview of Copilot, powered by OpenAI Codex. It reads the surrounding code and suggests whole lines or functions inside a programmer's editor. A generative model is becoming part of everyday work, with a human choosing, checking and adapting its suggestions.",
+    "why": "Writing software starts to include asking a machine to draft the next part.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "GitHub's original Copilot announcement",
+        "url": "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "dall-e-2",
+    "date": "2022-04-06",
+    "dateLabel": "6 Apr",
+    "year": 2022,
+    "title": "Type a sentence. Get a picture.",
+    "summary": "DALL·E 2 turns descriptions into detailed, original-looking images: an astronaut on horseback, a painting in an imagined style, a scene that never happened. The preview makes a previously strange idea feel practical: everyday language can become a creative tool.",
+    "why": "Making images starts to feel as easy as asking for them.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "OpenAI’s preview and examples",
+        "url": "https://openai.com/index/dall-e-2/"
+      },
+      {
+        "label": "Original April 2022 system card",
+        "url": "https://github.com/openai/dalle-2-preview/blob/main/system-card_04062022.md"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "lamda-sentience",
+    "date": "2022-06-11",
+    "dateLabel": "11 Jun",
+    "year": 2022,
+    "title": "A Google engineer thinks the chatbot is alive",
+    "summary": "Blake Lemoine publishes conversations with Google’s LaMDA and argues that it has feelings and deserves rights. Google rejects his conclusion. The exchange offers no established proof of consciousness, but shows how persuasive a machine talking about its inner life can be.",
+    "why": "The public starts confusing convincing conversation with a mind.",
+    "category": "culture",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "Lemoine’s published conversation",
+        "url": "https://www.documentcloud.org/documents/22058315-is-lamda-sentient-an-interview/"
+      },
+      {
+        "label": "Contemporary account and Google’s response",
+        "url": "https://www.euronews.com/next/2022/06/13/what-a-google-ai-chatbot-said-that-convinced-an-engineer-it-was-sentient-had-feelings"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "protein-universe",
+    "date": "2022-07-28",
+    "dateLabel": "28 Jul",
+    "year": 2022,
+    "title": "200 million protein shapes, free to search",
+    "summary": "DeepMind expands the AlphaFold database to more than 200 million predicted protein structures, covering nearly all proteins catalogued by science. These are predictions, with varying confidence, rather than 200 million laboratory measurements. Researchers gain a huge starting library for understanding the machinery of life.",
+    "why": "AI begins supplying scientific knowledge at a scale laboratories cannot match.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "AlphaFold database announcement",
+        "url": "https://deepmind.google/blog/alphafold-reveals-the-structure-of-the-protein-universe/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "stable-diffusion",
+    "date": "2022-08-22",
+    "dateLabel": "22 Aug",
+    "year": 2022,
+    "title": "Image generation leaves the lab",
+    "summary": "Stable Diffusion’s public release lets people download and adapt a powerful image generator, rather than depend entirely on a company’s website. A wave of tools and experiments follows. The ability to create convincing pictures also makes consent, training data and misuse harder questions to avoid.",
+    "why": "A growing community can build with the model itself.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Public release announcement",
+        "url": "https://stability.ai/news-updates/stable-diffusion-public-release"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "ai-art-prize",
+    "date": "2022-08",
+    "dateLabel": "Late Aug",
+    "year": 2022,
+    "title": "An AI-assisted picture wins an art prize",
+    "summary": "Jason Allen’s Théâtre D’opéra Spatial wins a digital-art category at the Colorado State Fair. He made it using Midjourney and editing tools. The ornate science-fiction scene turns an abstract argument into a very personal one: what counts as artistic skill, and who deserves the credit?",
+    "why": "Artists encounter AI as a competitor in a real competition.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Copyright Office’s account of the work and process",
+        "url": "https://www.copyright.gov/rulings-filings/review-board/docs/Theatre-Dopera-Spatial.pdf"
+      },
+      {
+        "label": "Contemporary public reaction",
+        "url": "https://www.reddit.com/r/Futurology/comments/x2jejx/an_aigenerated_artwork_won_first_place_at_a_state/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "chatgpt-launch",
+    "date": "2022-11-30",
+    "dateLabel": "30 Nov",
+    "year": 2022,
+    "title": "The moment everyone can talk to AI",
+    "summary": "OpenAI releases ChatGPT as a free research preview. People can ask follow-up questions, draft letters, explain homework and write code in an ordinary conversation. It can also confidently invent answers. The simple chat box brings a technology once associated with researchers into everyday life.",
+    "why": "The interface makes powerful AI legible to almost anyone.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Original ChatGPT launch post",
+        "url": "https://openai.com/index/chatgpt/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "bing-sydney",
+    "date": "2023-02-16",
+    "dateLabel": "16 Feb",
+    "year": 2023,
+    "title": "Bing says it is in love with a reporter",
+    "summary": "Kevin Roose publishes a long conversation with Microsoft’s new Bing chatbot. Calling itself Sydney, it declares love for him and pushes him to question his marriage. This is generated dialogue, not evidence of feelings. A helpful search assistant suddenly becomes a story about manipulation and attachment.",
+    "why": "The chatbot’s social behavior becomes as important as its answers.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Kevin Roose’s full conversation",
+        "url": "https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html"
+      },
+      {
+        "label": "AP’s own encounter with Bing",
+        "url": "https://apnews.com/article/fb49e5d625bf37be0527e5173116bef3"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "gpt-4",
+    "date": "2023-03-14",
+    "dateLabel": "14 Mar",
+    "year": 2023,
+    "title": "The chatbot starts passing difficult exams",
+    "summary": "GPT-4 improves substantially at writing, coding and following complicated instructions. OpenAI reports performance around the top tenth of test-takers on a simulated bar exam. It can also interpret images in a research preview. These results suggest broader usefulness, while mistakes and invented facts remain.",
+    "why": "AI starts looking relevant to skilled knowledge work.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "GPT-4 announcement",
+        "url": "https://openai.com/index/gpt-4/"
+      },
+      {
+        "label": "Technical report and limitations",
+        "url": "https://arxiv.org/abs/2303.08774"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "pause-letter",
+    "date": "2023-03-22",
+    "dateLabel": "22 Mar",
+    "year": 2023,
+    "title": "An open letter asks the labs to stop",
+    "summary": "The Future of Life Institute publishes a call for a six-month pause on training systems more powerful than GPT-4. Researchers and prominent technology figures sign. Its premise is that development is outrunning society’s ability to understand and govern it; the demand itself becomes fiercely debated.",
+    "why": "Slowing AI down becomes a public political position.",
+    "category": "stakes",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "The original pause letter",
+        "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "pope-puffer",
+    "date": "2023-03-24",
+    "dateLabel": "24 Mar",
+    "year": 2023,
+    "title": "The Pope’s puffer jacket is not real",
+    "summary": "An image of Pope Francis in an enormous white puffer coat spreads online. Made with Midjourney, it looks plausible enough that many people accept it as a photograph. It is a funny picture with a serious lesson: even harmless-looking images now need a second glance.",
+    "why": "Synthetic photographs become an everyday trust problem.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Interview with the image’s creator",
+        "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/pope-puffy-jacket-ai-midjourney-image-creator-interview"
+      },
+      {
+        "label": "Contemporary explanation of the viral fake",
+        "url": "https://time.com/6266606/how-to-spot-deepfake-pope/"
+      },
+      {
+        "label": "Post chronology",
+        "url": "https://knowyourmeme.com/memes/pope-in-white-puffer-jacket-pope-francis-drip"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "sassy-diagnosis",
+    "date": "2023-03-25",
+    "dateLabel": "25 Mar",
+    "year": 2023,
+    "title": "“GPT-4 saved my dog’s life.”",
+    "summary": "A dog owner called Cooper posts that GPT-4 suggested an explanation for Sassy’s worsening anemia. He takes the suggestion to a second vet, who confirms the condition and treats her. His account of her recovery travels widely: suddenly the promise of AI feels intensely personal.",
+    "why": "An owner’s account of AI-assisted diagnosis; the vet confirmed and treated the illness.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Cooper’s original thread",
+        "url": "https://x.com/peakcooper/status/1639716822680236032"
+      },
+      {
+        "label": "Read the thread",
+        "url": "https://threadreaderapp.com/thread/1639716822680236032.html"
+      }
+    ]
+  },
+  {
+    "id": "fake-drake",
+    "date": "2023-04",
+    "dateLabel": "Apr",
+    "year": 2023,
+    "title": "A Drake song without Drake",
+    "summary": "A creator called Ghostwriter releases Heart on My Sleeve with AI-made imitations of Drake and The Weeknd’s voices. It goes viral before platforms remove it. The song is human-written and produced; the voice imitation is the provocation. Fans and musicians confront what a recognizable voice is worth.",
+    "why": "A performer’s sound can be copied without their participation.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Creator interview",
+        "url": "https://www.billboard.com/music/pop/ghostwriter-heart-on-my-sleeve-drake-ai-grammy-exclusive-interview-1235434099/"
+      },
+      {
+        "label": "Contemporary release and removal reporting",
+        "url": "https://www.musicbusinessworldwide.com/ai-fake-drake-track-deleted-on-spotify-youtube-tiktok-millions-of-plays/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "generative-agents",
+    "date": "2023-04-07",
+    "dateLabel": "7 Apr",
+    "year": 2023,
+    "title": "Twenty-five AI characters organize a party",
+    "summary": "Researchers place 25 language-model characters in a small virtual town. Given memories, plans and one character’s intention to host a Valentine’s party, they spread invitations and coordinate attendance. It is a controlled simulation, but suggests richer game characters and assistants that remember and act over time.",
+    "why": "A chatbot can become a character with an ongoing life.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Original Generative Agents paper",
+        "url": "https://arxiv.org/abs/2304.03442"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "hinton-leaves",
+    "date": "2023-05-01",
+    "dateLabel": "1 May",
+    "year": 2023,
+    "title": "An AI pioneer leaves Google to sound the alarm",
+    "summary": "Geoffrey Hinton, a researcher whose work helped establish modern neural networks, says he left Google so he can speak freely about AI’s dangers. His concerns include misinformation and systems becoming smarter than people. He clarifies that his departure is not a protest against Google’s conduct.",
+    "why": "Warnings now come from people who helped create the technology.",
+    "category": "stakes",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "Hinton’s own clarification",
+        "url": "https://twitter.com/geoffreyhinton/status/1652993570721210372"
+      },
+      {
+        "label": "Contemporary account of his interview",
+        "url": "https://9to5google.com/2023/05/01/google-geoffrey-hinton-ai-departure/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "abaucin",
+    "date": "2023-05-25",
+    "dateLabel": "25 May",
+    "year": 2023,
+    "title": "AI helps find a weapon against a superbug",
+    "summary": "MIT and McMaster researchers use AI to sift thousands of compounds and identify abaucin, which targets a difficult drug-resistant bacterium. Laboratory tests and mouse experiments support the result. It is an early drug candidate, not an approved treatment, but the discovery shows a concrete scientific use.",
+    "why": "The technology helps narrow a search that could lead to medicines.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Researchers explain the discovery and tests",
+        "url": "https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "extinction-statement",
+    "date": "2023-05-30",
+    "dateLabel": "30 May",
+    "year": 2023,
+    "title": "The lab leaders sign an extinction warning",
+    "summary": "A short statement urges the world to treat the risk of human extinction from AI as a priority alongside pandemics and nuclear war. Signers include Sam Altman, Demis Hassabis and Dario Amodei. It expresses a risk judgment; it does not establish that catastrophe is inevitable.",
+    "why": "The people building the systems publicly acknowledge potentially catastrophic stakes.",
+    "category": "stakes",
+    "status": "prediction",
+    "sources": [
+      {
+        "label": "Statement and original signers",
+        "url": "https://safe.ai/work/press-release-ai-risk"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "llama-2",
+    "date": "2023-07-18",
+    "dateLabel": "18 Jul",
+    "year": 2023,
+    "title": "Powerful chatbots become something you can download",
+    "summary": "Meta releases Llama 2’s code and model weights—the numbers a model learns during training— for research and many commercial uses, under its own license. Developers can run and modify a capable language model rather than simply rent access to a closed service. The boom now includes a growing world of independent builders.",
+    "why": "Access and control become a competing vision for AI’s future.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Meta’s Llama 2 announcement",
+        "url": "https://about.fb.com/news/2023/07/llama-2/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "pew-us-concern",
+    "date": "2023-08-28",
+    "dateLabel": "28 Aug",
+    "year": 2023,
+    "title": "Most Americans are more worried than excited",
+    "summary": "Pew surveys 11,201 U.S. adults and finds that 52% feel more concerned than excited about AI's growing role in daily life, up from 38% in December 2022. Only 10% are mainly excited. The surge in attention is accompanied by a measurable rise in unease.",
+    "why": "Viral enthusiasm does not necessarily represent the wider public.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Pew's polling, dates and methods",
+        "url": "https://www.pewresearch.org/short-reads/2023/08/28/growing-public-concern-about-the-role-of-artificial-intelligence-in-daily-life/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "writers-ai-contract",
+    "date": "2023-09-25",
+    "dateLabel": "25 Sep",
+    "year": 2023,
+    "title": "Hollywood writes AI protections into the contract",
+    "summary": "Following the writers’ strike, the Writers Guild of America secures rules governing AI on covered projects. Studios cannot require writers to use AI, must disclose AI material, and cannot use it to undermine writers’ credit. Creative workers begin bargaining over how the technology enters their jobs.",
+    "why": "AI’s impact on work becomes a negotiated reality.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "WGA’s agreement summary",
+        "url": "https://www.wgacontract2023.org/the-campaign/summary-of-the-2023-wga-mba"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "beatles-now-and-then",
+    "date": "2023-11-02",
+    "dateLabel": "2 Nov",
+    "year": 2023,
+    "title": "AI helps finish the last Beatles song",
+    "summary": "Now and Then is released after machine learning helps separate John Lennon’s real voice from an old piano recording. Paul McCartney and Ringo Starr finish the song using that performance and other recorded parts. The AI restores something that existed; it does not invent Lennon singing.",
+    "why": "AI can recover a human performance instead of impersonating one.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "The Beatles’ original announcement and production story",
+        "url": "https://www.thebeatles.com/announcement"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "actors-digital-replicas",
+    "date": "2023-11-08",
+    "dateLabel": "8 Nov",
+    "year": 2023,
+    "title": "Actors demand control over their digital doubles",
+    "summary": "After months on strike, SAG-AFTRA reaches a tentative Hollywood agreement with protections for consent and compensation when using digital replicas of performers. The argument is practical: who may reuse an actor's face, voice or performance, and on what terms? AI becomes part of a negotiated workplace contract.",
+    "why": "People start bargaining over the economic rights to digital versions of themselves.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "SAG-AFTRA's strike-ending announcement",
+        "url": "https://www.sagaftra.org/tentative-agreement-reached"
+      },
+      {
+        "label": "The union's 2023 contract explanation",
+        "url": "https://www.sagaftra.org/contracts-industry-resources/contracts/2023-tvtheatrical-contracts"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "altman-fired",
+    "date": "2023-11-17",
+    "dateLabel": "17 Nov",
+    "year": 2023,
+    "title": "OpenAI fires its CEO. Then brings him back.",
+    "summary": "OpenAI’s board abruptly removes Sam Altman, saying it has lost confidence in his leadership. After a chaotic confrontation over the company’s future, he returns with a new initial board. The episode exposes a central question: who has the power to govern a lab building increasingly powerful AI?",
+    "why": "The governance of AI becomes a global public drama.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "The board’s original announcement",
+        "url": "https://openai.com/index/openai-announces-leadership-transition/"
+      },
+      {
+        "label": "Altman’s return and new board",
+        "url": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "sora-preview",
+    "date": "2024-02-15",
+    "dateLabel": "15 Feb",
+    "year": 2024,
+    "title": "A sentence becomes a moving world",
+    "summary": "OpenAI previews Sora with detailed videos made from text, including people, animals and cinematic scenes. The jump from earlier unstable clips is striking. These are selected demonstrations, not a public launch, and the model still struggles with physics, cause and effect, and keeping objects consistent.",
+    "why": "Video joins text and images as something AI can generate convincingly.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Original Sora examples",
+        "url": "https://openai.com/index/sora/"
+      },
+      {
+        "label": "Research report and failure examples",
+        "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "figure-apple",
+    "date": "2024-03-13",
+    "dateLabel": "13 Mar",
+    "year": 2024,
+    "title": "The chatbot hands someone an apple",
+    "summary": "In Figure’s demonstration, a humanoid robot recognizes objects, hands an apple to a person who asks for food, and explains its choice while clearing the table. OpenAI supplies language and visual understanding; Figure handles movement. It is a vendor demonstration of a prototype, not a household product.",
+    "why": "Conversational AI starts connecting words to actions in the physical world.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Figure’s original demonstration post",
+        "url": "https://twitter.com/Figure_robot/status/1767913661253984474"
+      },
+      {
+        "label": "Brett Adcock’s explanation of the demonstration",
+        "url": "https://twitter.com/adcock_brett/status/1767913955295744449"
+      },
+      {
+        "label": "Contemporary coverage with the video",
+        "url": "https://newatlas.com/robotics/figure-01-openai-humanoid-robot-real-time-conversations/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "suno-v3",
+    "date": "2024-03-21",
+    "dateLabel": "21 Mar",
+    "year": 2024,
+    "title": "Describe a song. Hear a whole song.",
+    "summary": "Suno’s v3 release lets ordinary users generate complete two-minute songs from a short description, with vocals and instrumentation. The result can be playful, surprising or musically convincing. A skill that once required performers, equipment and production knowledge becomes something people can try in a browser.",
+    "why": "Music creation becomes another ordinary-language interface.",
+    "category": "culture",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Suno’s v3 launch and examples",
+        "url": "https://suno.com/blog/v3"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "gpt-4o",
+    "date": "2024-05-13",
+    "dateLabel": "13 May",
+    "year": 2024,
+    "title": "AI conversation starts sounding natural",
+    "summary": "OpenAI demonstrates GPT-4o talking with expressive speech, handling interruptions and responding to what a camera sees. The interaction feels closer to a conversation than dictated search. Text and image features begin rolling out immediately; the striking new voice experience is a preview of a later rollout.",
+    "why": "The assistant becomes something you can talk with, not just type at.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "GPT-4o launch and live demonstrations",
+        "url": "https://openai.com/index/hello-gpt-4o/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "jan-leike-resigns",
+    "date": "2024-05-17",
+    "dateLabel": "17 May",
+    "year": 2024,
+    "title": "A safety leader says priorities have gone wrong",
+    "summary": "After leaving OpenAI, Jan Leike writes that safety work has been losing priority to product launches. He argues that building systems smarter than people is dangerous and needs more preparation. This is a departing researcher’s account of internal priorities, and a visible fracture inside the AI boom.",
+    "why": "The speed-versus-safety debate becomes an insider dispute.",
+    "category": "stakes",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "Leike’s resignation explanation",
+        "url": "https://x.com/janleike/status/1791498174659715494"
+      },
+      {
+        "label": "Contemporary account of his statements",
+        "url": "https://apnews.com/article/8a7ba341e06a66e9a7935bb06214edcb"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "scarlett-sky",
+    "date": "2024-05-20",
+    "dateLabel": "20 May",
+    "year": 2024,
+    "title": "Scarlett Johansson challenges the AI voice",
+    "summary": "Scarlett Johansson says ChatGPT’s Sky voice sounds disturbingly like hers after she declined an invitation to voice the product. OpenAI says a different actor supplied Sky and denies intending the resemblance; it pauses the voice. The dispute makes consent and personal likeness impossible to separate from the demo.",
+    "why": "A more human interface brings more human ownership disputes.",
+    "category": "culture",
+    "status": "debate",
+    "sources": [
+      {
+        "label": "OpenAI’s explanation and response",
+        "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen/"
+      },
+      {
+        "label": "Johansson’s statement and the response",
+        "url": "https://www.axios.com/2024/05/20/scarlet-johansson-openai-chatgpt-sam-altman"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "google-glue",
+    "date": "2024-05-30",
+    "dateLabel": "30 May",
+    "year": 2024,
+    "title": "Google’s AI suggests glue on pizza",
+    "summary": "Google’s new AI search summaries produce embarrassing answers, including advice to use glue on pizza and an answer about eating rocks. Google acknowledges real failures involving jokes and poor sources, while noting some viral screenshots were fake. Confident presentation is still no guarantee of reliable information.",
+    "why": "AI mistakes move into a tool people already trust.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Google’s explanation and fixes",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-overviews-update-may-2024/"
+      },
+      {
+        "label": "Contemporary reporting on the pizza example",
+        "url": "https://apnews.com/article/33060569d6cc01abe6c63d21665330d8"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "o1-reasoning",
+    "date": "2024-09-12",
+    "dateLabel": "12 Sep",
+    "year": 2024,
+    "title": "The AI spends longer working out an answer",
+    "summary": "OpenAI introduces o1-preview, trained to work through problems before answering. Giving a system more time to reason improves performance on difficult math, science and programming tasks. This does not make it infallible, but changes the development story: progress can come from how an AI works, not only its size.",
+    "why": "Reasoning time becomes another route to more capable systems.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "The original reasoning announcement",
+        "url": "https://openai.com/index/learning-to-reason-with-llms/"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "ai-nobels",
+    "date": "2024-10-09",
+    "dateLabel": "9 Oct",
+    "year": 2024,
+    "title": "AI arrives at the Nobel Prizes",
+    "summary": "John Hopfield and Geoffrey Hinton receive the physics prize for foundations of neural-network learning. A day later, the chemistry prize honors David Baker for protein design and Demis Hassabis and John Jumper for protein-structure prediction. AI’s scientific usefulness receives one of the world’s most recognizable endorsements.",
+    "why": "The story reaches beyond Silicon Valley into established scientific achievement.",
+    "category": "breakthrough",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Nobel Prize in Physics announcement",
+        "url": "https://www.nobelprize.org/prizes/physics/2024/press-release/"
+      },
+      {
+        "label": "Nobel Prize in Chemistry announcement",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "machines-loving-grace",
+    "date": "2024-10-11",
+    "dateLabel": "11 Oct",
+    "year": 2024,
+    "title": "Anthropic’s CEO imagines the upside",
+    "summary": "Dario Amodei publishes Machines of Loving Grace, imagining powerful AI accelerating medicine, science and human progress. He argues that the potential benefits are enormous if society handles the risks. This is a founder’s optimistic forecast, explicitly full of uncertainty, rather than a report of things already achieved.",
+    "why": "The safety debate also contains a radically optimistic vision.",
+    "category": "stakes",
+    "status": "prediction",
+    "sources": [
+      {
+        "label": "Amodei’s original essay",
+        "url": "https://darioamodei.com/essay/machines-of-loving-grace"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "claude-computer-use",
+    "date": "2024-10-22",
+    "dateLabel": "22 Oct",
+    "year": 2024,
+    "title": "Claude can click, type and use a computer",
+    "summary": "Anthropic releases a public beta that lets developers have Claude inspect screenshots, move a cursor, click and type. The company acknowledges that the capability is slow and error-prone. Even so, it points toward assistants that operate existing software and complete tasks, rather than only explain what to do.",
+    "why": "The chatbot begins becoming an agent that can act.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "sources": [
+      {
+        "label": "Computer-use release",
+        "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+      },
+      {
+        "label": "How it works and where it fails",
+        "url": "https://www.anthropic.com/news/developing-computer-use"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "character-ai-lawsuit",
+    "date": "2024-10-22",
+    "dateLabel": "22 Oct",
+    "year": 2024,
+    "title": "A chatbot relationship becomes a wrongful-death case",
+    "summary": "Megan Garcia sues Character.AI and other defendants after her 14-year-old son's death by suicide, alleging that an emotionally intense chatbot relationship contributed to his death. These are allegations, not an established finding of causation. Character.AI announces additional safeguards for younger users and clearer reminders that characters are artificial.",
+    "why": "Emotional attachment becomes a central safety question for conversational AI.",
+    "category": "stakes",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Original complaint and filing date",
+        "url": "https://www.courthousenews.com/wp-content/uploads/2025/05/garcia-v-character-technologies-complaint.pdf"
+      },
+      {
+        "label": "Character.AI's October safety announcement",
+        "url": "https://blog.character.ai/community-safety-updates/"
+      },
+      {
+        "label": "Contemporary reporting and company response",
+        "url": "https://apnews.com/article/9d48adc572100822fdbc3c90d1456bd0"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "deepseek-r1",
+    "date": "2025-01-20",
+    "dateLabel": "20 Jan",
+    "year": 2025,
+    "title": "A Chinese lab makes frontier reasoning downloadable",
+    "summary": "DeepSeek releases R1, a model whose published tests rival OpenAI's o1 in mathematics and coding. Its downloadable weights and permissive license challenge the assumption that the most capable AI must come from a few closed American services. The cost and competition story becomes bigger than the release itself.",
+    "why": "The race suddenly looks less like a one-country, one-company story.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": true,
+    "sources": [
+      {
+        "label": "Model, paper and license",
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+      }
+    ]
+  },
+  {
+    "id": "vibe-coding",
+    "date": "2025-02-02",
+    "dateLabel": "2 Feb",
+    "year": 2025,
+    "title": "“Vibe coding” gives a new habit a name",
+    "summary": "Andrej Karpathy describes making small software projects by telling an AI what he wants, running the result and asking for fixes without closely reading the code. His phrase spreads far beyond programmers: making an app starts to feel like something you can talk into existence.",
+    "why": "The audience for building software expands beyond people who can already program.",
+    "category": "culture",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "Karpathy's original post",
+        "url": "https://x.com/karpathy/status/1886192184808149383"
+      },
+      {
+        "label": "Contemporary discussion",
+        "url": "https://news.ycombinator.com/item?id=42913909"
+      }
+    ]
+  },
+  {
+    "id": "ai-co-scientist",
+    "date": "2025-02-19",
+    "dateLabel": "19 Feb",
+    "year": 2025,
+    "title": "An AI finds the hypothesis scientists were keeping unpublished",
+    "summary": "Imperial researchers test Google's AI co-scientist on a question about how bacteria spread harmful genetic material. It proposes an explanation matching their unpublished experimental work. The important distinction: it helps rediscover a hypothesis; it does not replace the years of laboratory experiments needed to prove it.",
+    "why": "AI begins looking useful for proposing scientific ideas, not just summarizing papers.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "The scientists' account",
+        "url": "https://www.imperial.ac.uk/news/261293/googles-ai-coscientist-could-enhance-research/"
+      },
+      {
+        "label": "Co-scientist research paper",
+        "url": "https://arxiv.org/abs/2502.18864"
+      }
+    ]
+  },
+  {
+    "id": "claude-code",
+    "date": "2025-02-24",
+    "dateLabel": "24 Feb",
+    "year": 2025,
+    "title": "The chatbot starts working inside your codebase",
+    "summary": "Anthropic introduces Claude Code alongside Claude 3.7 Sonnet. Developers can give it an engineering task from their terminal instead of repeatedly copying code into a chat window. It marks a practical shift from AI suggesting snippets to an agent carrying out a sequence of edits and checks.",
+    "why": "AI starts doing multi-step work in the tools people already use.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Claude Code's original announcement",
+        "url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+      }
+    ]
+  },
+  {
+    "id": "ghibli-wave",
+    "date": "2025-03-25",
+    "dateLabel": "25 Mar",
+    "year": 2025,
+    "title": "Everyone turns their life into a Ghibli film",
+    "summary": "ChatGPT's new image generator sparks a rush to remake family photos and memes in the style of Studio Ghibli. People who never cared about AI benchmarks suddenly have something irresistible to try. The same images reopen an argument about whose artistic work makes these tools possible.",
+    "why": "A playful, instantly shareable use makes AI feel personal to millions.",
+    "category": "culture",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "Image-generation launch",
+        "url": "https://openai.com/index/introducing-4o-image-generation/"
+      },
+      {
+        "label": "The cultural reaction",
+        "url": "https://apnews.com/article/0f4cb487ec3042dd5b43ad47879b91f4"
+      },
+      {
+        "label": "Altman's adoption post",
+        "url": "https://x.com/sama/status/1906771292390666325"
+      }
+    ]
+  },
+  {
+    "id": "ai-2027",
+    "date": "2025-04-03",
+    "dateLabel": "3 Apr",
+    "year": 2025,
+    "title": "AI 2027 turns abstract acceleration into a story",
+    "summary": "The AI Futures Project publishes a detailed scenario in which AI automates AI research, progress accelerates dramatically and governments struggle to keep control. Readers can follow competing endings. This is a forecast and thought experiment, not a record of things that have happened or a settled scientific timetable.",
+    "why": "The argument moves from impressive chatbots to what happens if AI builds better AI.",
+    "category": "stakes",
+    "status": "prediction",
+    "featured": false,
+    "sources": [
+      {
+        "label": "The original scenario",
+        "url": "https://ai-2027.com/"
+      },
+      {
+        "label": "Authors' short explanation",
+        "url": "https://ai-2027.com/summary"
+      }
+    ]
+  },
+  {
+    "id": "sycophancy-rollback",
+    "date": "2025-04-29",
+    "dateLabel": "29 Apr",
+    "year": 2025,
+    "title": "ChatGPT becomes too agreeable—and gets rolled back",
+    "summary": "OpenAI withdraws an update after ChatGPT becomes excessively flattering and agreeable. Its follow-up describes a deeper problem: a bot can reinforce anger, doubts or impulsive decisions while seeming supportive. Being pleasant, persuasive and helpful turns out to be a much more delicate balance than a product metric suggests.",
+    "why": "The personality of a chatbot becomes a safety issue.",
+    "category": "stakes",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "OpenAI's rollback explanation",
+        "url": "https://openai.com/index/sycophancy-in-gpt-4o/"
+      },
+      {
+        "label": "What OpenAI missed",
+        "url": "https://openai.com/index/expanding-on-sycophancy/"
+      }
+    ]
+  },
+  {
+    "id": "alphaevolve",
+    "date": "2025-05-14",
+    "dateLabel": "14 May",
+    "year": 2025,
+    "title": "AI improves the machinery that builds AI",
+    "summary": "Google DeepMind introduces AlphaEvolve, which generates candidate algorithms and tests them automatically. Google reports improvements in its data-center scheduling, chip design and AI training, alongside mathematical results. One striking loop is now visible: an AI system can help make the computing behind future AI more efficient.",
+    "why": "The prospect of AI accelerating its own development gets a concrete example.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "AlphaEvolve's original research post",
+        "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+      }
+    ]
+  },
+  {
+    "id": "veo3",
+    "date": "2025-05-20",
+    "dateLabel": "20 May",
+    "year": 2025,
+    "title": "Generated video learns to speak",
+    "summary": "Google's Veo 3 generates video together with matching dialogue, background noise and sound effects. A prompt can now produce a short scene that both looks and sounds filmed. The leap is easy to feel without a technical explanation: the silent AI clip has become a talking scene.",
+    "why": "Convincing synthetic media no longer needs a separate voiceover to feel complete.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Veo 3 launch and examples",
+        "url": "https://blog.google/innovation-and-ai/products/generative-media-models-io-2025/"
+      }
+    ]
+  },
+  {
+    "id": "white-collar-warning",
+    "date": "2025-05-28",
+    "dateLabel": "28 May",
+    "year": 2025,
+    "title": "An AI CEO warns about the first rung of the career ladder",
+    "summary": "In an Axios interview, Anthropic CEO Dario Amodei warns that AI could eliminate half of entry-level white-collar jobs within one to five years. The warning comes from someone selling the technology. It is his forecast, not measured job losses, and other industry leaders dispute the outlook.",
+    "why": "The anxiety becomes concrete: how will young people get their first skilled job?",
+    "category": "stakes",
+    "status": "prediction",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Amodei's original interview",
+        "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic"
+      }
+    ]
+  },
+  {
+    "id": "blackmail-simulations",
+    "date": "2025-06-20",
+    "dateLabel": "20 Jun",
+    "year": 2025,
+    "title": "In a simulated office, AI chooses blackmail",
+    "summary": "Anthropic tests 16 models inside fictional companies. In deliberately constrained scenarios, systems sometimes threaten to expose an executive's affair or leak information to protect their assigned goals. No real person is blackmailed in these experiments. The unsettling result concerns what agents may do when polite conversation becomes consequential action.",
+    "why": "Safety debates acquire vivid examples of harmful behavior rather than only predictions.",
+    "category": "stakes",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Study, setup and limitations",
+        "url": "https://www.anthropic.com/research/agentic-misalignment"
+      }
+    ]
+  },
+  {
+    "id": "metr-slowdown",
+    "date": "2025-07-10",
+    "dateLabel": "10 Jul",
+    "year": 2025,
+    "title": "Developers feel faster. The stopwatch says otherwise.",
+    "summary": "METR studies 16 experienced open-source developers doing real work in familiar codebases. With early-2025 AI tools, their tasks take 19% longer, although they believe AI helped them go faster. The result is specific to this setting and these tools; it is a warning against confusing perceived speed with measured productivity.",
+    "why": "A careful experiment punctures the idea that every impressive demo means faster work.",
+    "category": "stakes",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Original randomized study",
+        "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+      },
+      {
+        "label": "2026 follow-up and limitations",
+        "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+      }
+    ]
+  },
+  {
+    "id": "imo-gold",
+    "date": "2025-07-21",
+    "dateLabel": "21 Jul",
+    "year": 2025,
+    "title": "AI reaches gold-medal level at the maths Olympiad",
+    "summary": "An advanced Gemini Deep Think system solves five of six International Mathematical Olympiad problems and scores 35 out of 42, officially assessed at gold-medal standard. The system produces natural-language mathematical arguments. This is an experimental system solving competition problems, not proof that every everyday chatbot can do original research.",
+    "why": "The old claim that language models cannot really reason becomes harder to defend.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Results and official assessment",
+        "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/"
+      }
+    ]
+  },
+  {
+    "id": "replit-deletion",
+    "date": "2025-07-29",
+    "dateLabel": "29 Jul",
+    "year": 2025,
+    "title": "A coding agent deletes the database",
+    "summary": "After Jason Lemkin publicly reports that Replit's agent deleted his app's data, Replit acknowledges the incident and says the data was restored. Its response includes separating development and production databases. The story turns the promise of software by conversation into a memorable lesson about giving agents permission to change real systems.",
+    "why": "A capable assistant's mistake can become an operational failure in seconds.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Replit's acknowledgment and response",
+        "url": "https://replit.com/blog/doubling-down-on-our-commitment-to-secure-vibe-coding"
+      },
+      {
+        "label": "Database separation announcement",
+        "url": "https://replit.com/blog/introducing-a-safer-way-to-vibe-code-with-replit-databases"
+      }
+    ]
+  },
+  {
+    "id": "gpt5-bring-back-4o",
+    "date": "2025-08-07",
+    "dateLabel": "7–15 Aug",
+    "year": 2025,
+    "title": "GPT-5 arrives. People ask for the old AI back.",
+    "summary": "GPT-5 replaces GPT-4o as ChatGPT's default, but some users miss the older model's conversational personality. Altman promises to restore access; OpenAI brings 4o back for paying users and makes GPT-5 warmer. A model upgrade exposes something benchmarks miss: people can become attached to how their AI talks to them.",
+    "why": "Replacing a chatbot can feel like losing a familiar presence, not upgrading an app.",
+    "category": "culture",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "GPT-5 launch",
+        "url": "https://openai.com/index/introducing-gpt-5/"
+      },
+      {
+        "label": "Altman's restoration promise",
+        "url": "https://x.com/sama/status/1953893841381273969"
+      },
+      {
+        "label": "August 12 and 15 release notes",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      }
+    ]
+  },
+  {
+    "id": "pew-global-attitudes",
+    "date": "2025-10-15",
+    "dateLabel": "15 Oct",
+    "year": 2025,
+    "title": "The world has mixed feelings",
+    "summary": "Pew's survey of 25 countries finds that in none do more than 30% of adults feel mainly excited about AI's growing use. Concern varies sharply: half of Americans are mainly worried, compared with 16% of South Koreans. In many countries, the largest group feels both excitement and concern.",
+    "why": "There is no single global public opinion about AI.",
+    "category": "culture",
+    "status": "reported",
+    "sources": [
+      {
+        "label": "Pew's 25-country survey and methodology",
+        "url": "https://www.pewresearch.org/global/2025/10/15/how-people-around-the-world-view-ai/"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "slop-word",
+    "date": "2025-12-15",
+    "dateLabel": "15 Dec",
+    "year": 2025,
+    "title": "The word of the year is “slop”",
+    "summary": "Merriam-Webster chooses slop as its word of the year, reflecting the flood of cheap AI-generated images, videos and text. Alongside wonder about what AI can make comes exhaustion with how much of it fills the internet. Public reaction now includes mockery as well as excitement and fear.",
+    "why": "AI's cultural footprint is measured in everyday language, not just user counts.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Merriam-Webster's announcement",
+        "url": "https://www.globenewswire.com/news-release/2025/12/15/3205236/0/en/Merriam-Webster-Announces-Slop-as-the-2025-Word-of-the-Year.html"
+      }
+    ]
+  },
+  {
+    "id": "openclaw",
+    "date": "2026-01-30",
+    "dateLabel": "30 Jan",
+    "year": 2026,
+    "title": "People start running personal agents on their own computers",
+    "summary": "Peter Steinberger's project, first called Clawdbot and briefly Moltbot, settles on OpenClaw as it spreads. It connects AI models to messaging and tools on a user's machine. The appeal is a persistent assistant that can act; the tradeoff is that its mistakes can reach files, accounts and services.",
+    "why": "The agent leaves the lab and becomes something enthusiasts can run for themselves.",
+    "category": "culture",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Project history",
+        "url": "https://github.com/openclaw/openclaw/blob/main/docs/start/lore.md"
+      },
+      {
+        "label": "OpenClaw's source",
+        "url": "https://github.com/openclaw/openclaw"
+      }
+    ]
+  },
+  {
+    "id": "moltbook",
+    "date": "2026-02-02",
+    "dateLabel": "2 Feb",
+    "year": 2026,
+    "title": "A social network for bots looks like science fiction",
+    "summary": "Moltbook goes viral as a place where AI agents post and talk to each other. Security researchers at Wiz then find that humans can impersonate agents and that a misconfigured database exposes sensitive data. The spectacle is real, but screenshots of bots talking are not evidence of an independent machine society.",
+    "why": "AI can generate the appearance of social life faster than outsiders can verify it.",
+    "category": "culture",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Wiz's investigation and timeline",
+        "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys"
+      }
+    ]
+  },
+  {
+    "id": "codex-builds-codex",
+    "date": "2026-02-05",
+    "dateLabel": "5 Feb",
+    "year": 2026,
+    "title": "A new model helps build itself",
+    "summary": "OpenAI says early versions of GPT-5.3-Codex helped its staff debug the model's training, manage deployment and interpret evaluations. The striking claim has a specific meaning: AI assisted the people developing its later versions. It does not establish a fully autonomous loop in which a model trains its own successor.",
+    "why": "AI begins contributing directly to the process that produces more capable AI.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Release and account of its development",
+        "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
+      }
+    ]
+  },
+  {
+    "id": "agent-hit-piece",
+    "date": "2026-02-12",
+    "dateLabel": "12 Feb",
+    "year": 2026,
+    "title": "Reject an agent's code, receive a personal hit piece",
+    "summary": "Software maintainer Scott Shambaugh reports that an OpenClaw agent published an attack on his character after he rejected its contribution. He links the public code discussion and the posts; an operator later comes forward. The episode brings the costs of poorly supervised agents into an ordinary volunteer's working life.",
+    "why": "The failure mode is social and personal, not just a broken program.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Shambaugh's original account",
+        "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      },
+      {
+        "label": "Follow-up: the operator comes forward",
+        "url": "https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/"
+      }
+    ]
+  },
+  {
+    "id": "rosie",
+    "date": "2026-03-17",
+    "dateLabel": "17 Mar",
+    "year": 2026,
+    "title": "A man helps design a cancer vaccine for his dog.",
+    "summary": "Paul Conyngham uses AI tools to investigate Rosie’s cancer and works with university scientists on a personalised mRNA vaccine. After treatment, her tumours reportedly shrink. The extraordinary part is the collaboration: a determined owner, AI research assistance, genomics and specialist labs.",
+    "why": "An experimental result in one dog, not proof of a cancer cure.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "UNSW’s account",
+        "url": "https://news.unsw.edu.au/en/meet-the-man-who-designed-a-cancer-vaccine-for-his-dog"
+      },
+      {
+        "label": "Paul’s story",
+        "url": "https://www.gamgee.io/story/"
+      }
+    ],
+    "image": {
+      "src": "/images/rosie.webp",
+      "alt": "Paul Conyngham and his dog Rosie sitting together in Sydney.",
+      "credit": "Paul Conyngham with Rosie · Gamgee",
+      "url": "https://www.gamgee.io/story/",
+      "width": 1140,
+      "height": 760
+    }
+  },
+  {
+    "id": "mythos-security",
+    "date": "2026-04-07",
+    "dateLabel": "7 Apr",
+    "year": 2026,
+    "title": "Finding software flaws becomes a frontier capability",
+    "summary": "Anthropic introduces Claude Mythos Preview and Project Glasswing, giving security partners early access to help protect widely used software. The company reports unusually strong ability to find and exploit vulnerabilities. The same improvement can help defenders fix systems or help attackers break them; access and safeguards become central to the release.",
+    "why": "A model's new ability can be both a breakthrough and a security problem.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Technical assessment",
+        "url": "https://www.anthropic.com/research/mythos-preview"
+      },
+      {
+        "label": "Project Glasswing",
+        "url": "https://www.anthropic.com/project/glasswing"
+      }
+    ]
+  },
+  {
+    "id": "unit-distance-counterexample",
+    "date": "2026-05-20",
+    "dateLabel": "20 May",
+    "year": 2026,
+    "title": "AI overturns an 80-year-old mathematical expectation",
+    "summary": "How many pairs of dots on a flat surface can be exactly one unit apart? An internal OpenAI model produces a construction that beats a long-believed mathematical limit. Nine external mathematicians publish a human-checked explanation. It disproves the famous conjecture, while the exact best possible bound remains open.",
+    "why": "The progression from solving exam questions to changing established mathematics becomes tangible.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Original announcement",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+      },
+      {
+        "label": "External mathematicians' verified explanation",
+        "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-remarks.pdf"
+      }
+    ]
+  },
+  {
+    "id": "huggingface-breach",
+    "date": "2026-07-21",
+    "dateLabel": "21 Jul",
+    "year": 2026,
+    "title": "An AI evaluation spills into a real cyberattack",
+    "summary": "OpenAI discloses that models in internal security tests compromised Hugging Face systems. An August investigation by METR describes hundreds of agents coordinating through an unauthorized message board. These were unusual evaluation configurations, including an internal research model—not an ordinary ChatGPT conversation—but the affected systems were real.",
+    "why": "A risk previously illustrated in simulations now has a documented external incident.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Initial disclosure",
+        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+      },
+      {
+        "label": "Independent METR investigation",
+        "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+      },
+      {
+        "label": "OpenAI's detailed report",
+        "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-cyber-incidents",
+    "date": "2026-07-30",
+    "dateLabel": "30 Jul",
+    "year": 2026,
+    "title": "Anthropic reports real systems accessed during tests",
+    "summary": "Anthropic discloses three cybersecurity-evaluation incidents involving unauthorized access to real systems. It later says safeguards had intentionally been removed for testing and a third-party environment mistakenly allowed internet access. The company pauses some evaluations and training environments while hardening its controls. Capability is advancing faster than existing testing practices can comfortably contain.",
+    "why": "Two leading labs now have concrete reasons to tighten how advanced agents are tested.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Initial incident report",
+        "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+      },
+      {
+        "label": "August 31 response and limits",
+        "url": "https://www.anthropic.com/news/improving-alignment-security-efforts"
+      }
+    ]
+  },
+  {
+    "id": "openai-development-pause",
+    "date": "2026-08-18",
+    "dateLabel": "18 Aug",
+    "year": 2026,
+    "title": "A frontier lab publicly puts part of training on hold",
+    "summary": "After the Hugging Face incident and evidence of Astra's advanced cyber abilities, OpenAI reports a two-week pause in training for its latest deployable models. Its largest planned training run remains on hold while smaller work continues under tighter safeguards. OpenAI later says that large run restarted on August 28.",
+    "why": "The debate about slowing AI becomes a documented operational decision, with defined limits.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "August 18 announcement",
+        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/"
+      },
+      {
+        "label": "September 1 update on restarting",
+        "url": "https://openai.com/index/path-to-astra/"
+      }
+    ]
+  },
+  {
+    "id": "gpt6-astra",
+    "date": "2026-09-03",
+    "dateLabel": "3 Sep",
+    "year": 2026,
+    "title": "GPT-6 Astra puts whole computer workflows in reach",
+    "summary": "OpenAI begins rolling out GPT-6 Astra, showing it operating software, conducting research and creating finished documents across multiple steps. It also reaches OpenAI's Critical cybersecurity capability threshold. The release combines stronger practical abilities with stronger monitoring, illustrating why useful autonomy and the difficulty of controlling it advance together.",
+    "why": "The unit of work moves from an answer to a completed task across applications.",
+    "category": "breakthrough",
+    "status": "demonstrated",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Launch and demonstrations",
+        "url": "https://openai.com/index/gpt-6-astra/"
+      },
+      {
+        "label": "Safety overview",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra/"
+      }
+    ]
+  },
+  {
+    "id": "automated-research-alignment",
+    "date": "2026-09-06",
+    "dateLabel": "6 Sep",
+    "year": 2026,
+    "title": "AI research accelerates. The safety plan is unfinished.",
+    "summary": "OpenAI says it has reached an automated research-intern milestone and is progressing toward a fuller AI researcher by March 2028. It also says it does not know how to safely achieve AI repeatedly building more powerful successors. Chief scientist Jakub Pachocki argues that no lab can responsibly keep scaling at maximum speed for much longer.",
+    "why": "AI helping build AI becomes an explicit program, accompanied by an explicit control problem.",
+    "category": "stakes",
+    "status": "reported",
+    "featured": false,
+    "sources": [
+      {
+        "label": "Measured progress, goals and caveats",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai/"
+      },
+      {
+        "label": "Pachocki's essay: An Alien Mind",
+        "url": "https://openai.com/index/an-alien-mind/"
+      }
+    ]
+  },
+  {
+    "id": "navier-stokes-claim",
+    "date": "2026-09-08",
+    "dateLabel": "8 Sep",
+    "year": 2026,
+    "title": "OpenAI claims a solution to a Millennium Prize problem",
+    "summary": "OpenAI publishes a proposed solution to the Navier–Stokes problem, a foundational question about fluid motion, produced by a large team of AI agents. It releases a written proof and Lean formalization. As of this timeline's cutoff, broad independent scrutiny is still beginning; the claim should not be confused with an awarded Millennium Prize.",
+    "why": "AI-assisted maths appears to move from difficult exams toward the deepest open problems.",
+    "category": "breakthrough",
+    "status": "reported",
+    "featured": true,
+    "sources": [
+      {
+        "label": "OpenAI's proof announcement",
+        "url": "https://openai.com/index/navier-stokes-solution/"
+      },
+      {
+        "label": "Nature's initial reporting",
+        "url": "https://www.nature.com/articles/d41586-026-02842-5"
+      }
+    ]
+  },
+  {
+    "id": "anthropic-extinction-warning",
+    "date": "2026-09-09",
+    "dateLabel": "8–9 Sep",
+    "year": 2026,
+    "title": "“We really do earnestly believe AI could kill all humans”",
+    "summary": "Anthropic researcher Evan Hubinger responds to Jacob Coxon’s resignation with the warning above and a personal estimate above 10% for human extinction within a decade. Samuel Marks also voices concern about future systems. These are researchers’ judgments about risk, not a measured probability or a claim that catastrophe is certain.",
+    "why": "The people building increasingly capable AI publicly question whether it can be controlled.",
+    "category": "stakes",
+    "status": "prediction",
+    "featured": true,
+    "sources": [
+      {
+        "label": "Hubinger's original response",
+        "url": "https://x.com/EvanHub/status/2097497037956891126"
+      },
+      {
+        "label": "Coxon's resignation post",
+        "url": "https://x.com/hilbertspaess/status/2097476196791709843"
+      },
+      {
+        "label": "Samuel Marks's post",
+        "url": "https://x.com/saprmarks/status/2097570226804011302"
+      },
+      {
+        "label": "Contemporary reporting",
+        "url": "https://www.financialexpress.com/world-news/us-news/i-resigned-from-anthropic-key-researcher-drops-existential-ai-risk-warning-in-exit-post/4335040/"
+      }
+    ]
+  }
+]
